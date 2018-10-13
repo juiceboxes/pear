@@ -1,0 +1,27 @@
+@import '../../Utilities';
+
+section.pear-l-content {
+  padding: $pear-padding;
+}
+
+section.pear-l-button-group {
+  > * { display: inline; }
+  * + * { @include rem('margin-left', 5px); }
+  @include rem('margin', 24px 0);
+}
+
+section.pear-l-icon-group {
+  * + * { margin-left: 10px; }
+}
+
+section.pear-l-icon-group__with-major {
+  * + * { margin-left: 7.5px; }
+  .pear-battery:last-of-type {
+    padding-left: 15px;
+    border-left: 2px solid #eaeaea;
+    span.label{
+      font-weight: 500;
+      margin: 0 10px;
+    }
+  }
+}

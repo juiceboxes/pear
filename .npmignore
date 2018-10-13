@@ -1,0 +1,14 @@
+.DS_Store
+.idea
+.gitignore
+.config
+.vscode
+node_modules
+src
+static
+.babelrc
+.eslintrc
+.firebaserc
+.prettierignore
+.travis.yml
+yarn.lock

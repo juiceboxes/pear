@@ -1,0 +1,34 @@
+// Spacing
+$pear-padding: 15px;
+$pear-margin: 15px;
+$pear-gutter: 15px;
+
+// Font Size
+$pear-fontSize: 14px;
+
+// Borders
+$pear-borderRadius: 3px;
+
+// Grid breakpoints
+$pear-break--xs: 300px;
+$pear-break--sm: 576px;
+$pear-break--md: 768px;
+$pear-break--lg: 992px;
+$pear-break--xl: 1200px;
+
+// Colors
+$pear-color--red: red;
+$pear-color--critical: $pear-color--red;
+
+$pear-color--orange: orange;
+$pear-color--high: $pear-color--orange;
+
+$pear-color--yellow: yellow;
+$pear-color--medium: $pear-color--yellow;
+
+$pear-color--green: green;
+$pear-color--low: $pear-color--green;
+
+$pear-color--blue: blue;
+
+$pear-color--gray: gray;
