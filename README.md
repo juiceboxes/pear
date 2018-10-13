@@ -2,7 +2,7 @@
 
 react components
 
-## Usage
+## Usage 
 
 npm install: `npm install @juiceboxes/pear`
 
