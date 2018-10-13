@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import propTypes from 'prop-types';
 import classNames from 'classnames';
-import { connect } from 'react-redux';
 import ThemeContext from '../Dark/configContext';
 
 /**
